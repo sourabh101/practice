@@ -1,12 +1,14 @@
 def is_arithmetic_symbol(symbol):
-    if (symbol.strip() == '+') or (symbol.strip() == '-') or (symbol.strip() == '*') or (symbol.strip() == '%'):
+    if (symbol.strip() == '+') or (symbol.strip() == '-') or \
+            (symbol.strip() == '*') or (symbol.strip() == '/'):
         return True
     else:
         return False
 
 
 def is_braces(symbol):
-    if (symbol.strip() == '(') or (symbol.strip() == '{') or (symbol.strip() == ')') or (symbol.strip() == '}'):
+    if (symbol.strip() == '(') or (symbol.strip() == '{') or \
+            (symbol.strip() == ')') or (symbol.strip() == '}'):
         return True
     else:
         return False
@@ -39,17 +41,24 @@ def to_postfix(string):
                     infix_list_copy.append(infix_list[i].strip())
                 else:
                     infix_list_copy.append(infix_list[i].strip())
+            else:
+                infix_list_copy.append(infix_list[i].strip())
         elif (infix_list[i].strip() == ')') or (infix_list[i].strip() == '}'):
             if i != 0 and i != (len(infix_list) - 1):
-                if not is_arithmetic_symbol(infix_list[i - 1]):
+                if not is_arithmetic_symbol(infix_list[i + 1]):
                     infix_list_copy.append(infix_list[i].strip())
                     infix_list_copy.append('*')
+                else:
+                    infix_list_copy.append(infix_list[i].strip())
+            else:
+                infix_list_copy.append(infix_list[i].strip())
         else:
             infix_list_copy.append(infix_list[i].strip())
 
     operator_stack = []
     operand_queue = []
 
+    print(infix_list_copy)
     for i in range(0, len(infix_list_copy)):
         if is_integer(infix_list_copy[i]):
             operand_queue.append(infix_list_copy[i])
@@ -91,7 +100,7 @@ def get_val(symbol, param1, param2):
     elif symbol == '*':
         return param2 * param1
     elif symbol == '/':
-        return param2 / param1
+        return param2 // param1
 
 
 def get_result(postfix_list):
