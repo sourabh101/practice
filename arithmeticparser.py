@@ -36,7 +36,7 @@ def to_postfix(string):
     for i in range(0, len(infix_list)):
         if (infix_list[i].strip() == '(') or (infix_list[i].strip() == '{'):
             if i != 0 and i != (len(infix_list) - 1):
-                if not is_arithmetic_symbol(infix_list[i - 1]):
+                if not (is_arithmetic_symbol(infix_list[i - 1]) or is_braces(infix_list[i - 1])):
                     infix_list_copy.append('*')
                     infix_list_copy.append(infix_list[i].strip())
                 else:
