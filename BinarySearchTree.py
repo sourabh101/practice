@@ -31,25 +31,25 @@ class BST:
             else:
                 self._insert(value, node.right_child)
 
-    def print_inorder(self):
+    def print_in_order(self):
         if self.root is not None:
-            self._print_inorder(self.root)
+            self._print_in_order(self.root)
 
-    def _print_inorder(self, node):
+    def _print_in_order(self, node):
         if node is not None:
-            self._print_inorder(node.left_child)
+            self._print_in_order(node.left_child)
             print(node.value)
-            self._print_inorder(node.right_child)
+            self._print_in_order(node.right_child)
 
-    def print_preorder(self):
+    def print_pre_order(self):
         if self.root is not None:
-            self._print_preorder(self.root)
+            self._print_pre_order(self.root)
 
-    def _print_preorder(self, node):
+    def _print_pre_order(self, node):
         if node is not None:
             print(node.value)
-            self._print_preorder(node.left_child)
-            self._print_preorder(node.right_child)
+            self._print_pre_order(node.left_child)
+            self._print_pre_order(node.right_child)
 
     def get_height(self):
         if self.root is not None:
@@ -59,7 +59,7 @@ class BST:
 
     def _get_height(self, node):
         if node is None:
-            return 0
+            return -1
         else:
             left_height = self._get_height(node.left_child)
             right_height = self._get_height(node.right_child)
@@ -86,8 +86,8 @@ class BST:
     def is_bst(self, node, minimum=-sys.maxsize, maximum=sys.maxsize):
         if node is None:
             return True
-        if minimum < node.value < maximum and self.is_bst(node.left_child, minimum, node.value) and self.is_bst(node.right_child,
-                                                                                                                node.value, maximum):
+        if minimum < node.value < maximum and self.is_bst(node.left_child, minimum, node.value) and\
+                self.is_bst(node.right_child, node.value, maximum):
             return True
 
 
