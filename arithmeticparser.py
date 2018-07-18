@@ -1,6 +1,7 @@
 def is_arithmetic_symbol(symbol):
     if (symbol.strip() == '+') or (symbol.strip() == '-') or \
-            (symbol.strip() == '*') or (symbol.strip() == '/'):
+            (symbol.strip() == '*') or (symbol.strip() == '/')\
+            or (symbol.strip() == '^'):
         return True
     else:
         return False
@@ -22,7 +23,7 @@ def has_higher_priority(param, param1):
     if not is_arithmetic_symbol(param1):
         return True
     else:
-        arith_symbols = ['/', '*', '+', '-']
+        arith_symbols = ['^','/', '*', '+', '-']
         if arith_symbols.index(param) <= arith_symbols.index(param1):
             return True
         else:
@@ -100,6 +101,8 @@ def get_val(symbol, param1, param2):
         return param2 * param1
     elif symbol == '/':
         return param2 // param1
+    elif symbol == '^':
+        return param2**param1
 
 
 def get_result(postfix_list):
@@ -125,6 +128,7 @@ def evaluate(string):
 
 def reformat(string):
     string = string.replace("+", " + ")
+    string = string.replace("^", " ^ ")
     string = string.replace("-", " - ")
     string = string.replace("*", " * ")
     string = string.replace("/", " / ")
