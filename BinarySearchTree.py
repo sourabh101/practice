@@ -1,4 +1,5 @@
 import random
+import sys
 
 
 class Node:
@@ -24,7 +25,7 @@ class BST:
                 node.left_child = Node(value)
             else:
                 self._insert(value, node.left_child)
-        else:
+        elif value > node.value:
             if node.right_child is None:
                 node.right_child = Node(value)
             else:
@@ -82,11 +83,20 @@ class BST:
         else:
             return False
 
+    def is_bst(self, node, minimum=-sys.maxsize, maximum=sys.maxsize):
+        if node is None:
+            return True
+        if minimum < node.value < maximum and self.is_bst(node.left_child, minimum, node.value) and self.is_bst(node.right_child,
+                                                                                                                node.value, maximum):
+            return True
 
-array = [i for i in range(0, 10000)]
+
+array = [i for i in range(0, 1000)]
 random.shuffle(array)
 
 bst = BST()
 
 for i in array:
     bst.insert(i)
+
+print(bst.is_bst(bst.root))

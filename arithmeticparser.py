@@ -58,7 +58,6 @@ def to_postfix(string):
     operator_stack = []
     operand_queue = []
 
-    print(infix_list_copy)
     for i in range(0, len(infix_list_copy)):
         if is_integer(infix_list_copy[i]):
             operand_queue.append(infix_list_copy[i])
