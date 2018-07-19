@@ -90,6 +90,23 @@ class BST:
                 self.is_bst(node.right_child, node.value, maximum):
             return True
 
+    def bfs(self):
+        node_queue = []
+        root = self.root
+        if root is not None:
+            node_queue.insert(1, root)
+            print(root.value)
+            while len(node_queue) != 0:
+                node = node_queue.pop()
+                left_node = node.left_child
+                right_node = node.right_child
+                if left_node is not None:
+                    node_queue.insert(1, left_node)
+                    print(left_node.value)
+                if right_node is not None:
+                    node_queue.insert(1, right_node)
+                    print(right_node.value)
+
 
 array = [i for i in range(0, 1000)]
 random.shuffle(array)
@@ -99,4 +116,4 @@ bst = BST()
 for i in array:
     bst.insert(i)
 
-print(bst.is_bst(bst.root))
+print(bst.bfs())
