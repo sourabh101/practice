@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10a3f4d0-c9a3-48c6-8369-6e312a33fb43" name="Default" comment="minimum jumps">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dynamicprogramming/minimumJumps.py" />
+    <list default="true" id="10a3f4d0-c9a3-48c6-8369-6e312a33fb43" name="Default" comment="subset sum">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arithmeticparser.py" afterPath="$PROJECT_DIR$/arithmeticparser.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py" afterPath="$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dynamicprogramming/subsetsum.py" afterPath="$PROJECT_DIR$/dynamicprogramming/subsetsum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,32 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="longestCommonSubsequence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py">
+    <leaf>
+      <file leaf-file-name="arithmeticparser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arithmeticparser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knapsackproblem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dynamicprogramming/knapsackproblem.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="minimumJumps.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dynamicprogramming/minimumJumps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="1223">
+              <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,7 +44,6 @@
       <list>
         <option value="$PROJECT_DIR$/hello.py" />
         <option value="$PROJECT_DIR$/heaps.py" />
-        <option value="$PROJECT_DIR$/arithmeticparser.py" />
         <option value="$PROJECT_DIR$/huffman.py" />
         <option value="$PROJECT_DIR$/osmodule.py" />
         <option value="$PROJECT_DIR$/simpleserver.py" />
@@ -70,9 +51,13 @@
         <option value="$PROJECT_DIR$/reversewords.py" />
         <option value="$PROJECT_DIR$/evalTest.py" />
         <option value="$PROJECT_DIR$/dynamicprogramming/longestIncreasingSubsequence.py" />
-        <option value="$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py" />
         <option value="$PROJECT_DIR$/dynamicprogramming/knapsackproblem.py" />
         <option value="$PROJECT_DIR$/dynamicprogramming/minimumJumps.py" />
+        <option value="$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py" />
+        <option value="$PROJECT_DIR$/dynamicprogramming/subsetsum.py" />
+        <option value="$PROJECT_DIR$/dynamicprogramming/rodcutting.py" />
+        <option value="$PROJECT_DIR$/recursion.py" />
+        <option value="$PROJECT_DIR$/arithmeticparser.py" />
       </list>
     </option>
   </component>
@@ -96,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -105,15 +89,11 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -128,8 +108,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minimumJumps">
-    <configuration name="evalTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.arithmeticparser">
+    <configuration name="arithmeticparser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -141,7 +121,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evalTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/arithmeticparser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,23 +160,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="longestIncreasingSubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamicprogramming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamicprogramming/longestIncreasingSubsequence.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="minimumJumps" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,20 +177,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="subsetsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dynamicprogramming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamicprogramming/subsetsum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.evalTest" />
-      <item index="1" class="java.lang.String" itemvalue="Python.longestIncreasingSubsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Python.longestCommonSubsequence" />
-      <item index="3" class="java.lang.String" itemvalue="Python.knapsackproblem" />
-      <item index="4" class="java.lang.String" itemvalue="Python.minimumJumps" />
+      <item index="0" class="java.lang.String" itemvalue="Python.longestCommonSubsequence" />
+      <item index="1" class="java.lang.String" itemvalue="Python.knapsackproblem" />
+      <item index="2" class="java.lang.String" itemvalue="Python.minimumJumps" />
+      <item index="3" class="java.lang.String" itemvalue="Python.subsetsum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.arithmeticparser" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.minimumJumps" />
-        <item index="1" class="java.lang.String" itemvalue="Python.knapsackproblem" />
-        <item index="2" class="java.lang.String" itemvalue="Python.longestCommonSubsequence" />
-        <item index="3" class="java.lang.String" itemvalue="Python.longestIncreasingSubsequence" />
-        <item index="4" class="java.lang.String" itemvalue="Python.evalTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python.arithmeticparser" />
+        <item index="1" class="java.lang.String" itemvalue="Python.subsetsum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.minimumJumps" />
+        <item index="3" class="java.lang.String" itemvalue="Python.knapsackproblem" />
+        <item index="4" class="java.lang.String" itemvalue="Python.longestCommonSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -296,12 +276,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290938" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290938" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -332,7 +311,8 @@
     <MESSAGE value="longest common subseuence" />
     <MESSAGE value="knapsack problem" />
     <MESSAGE value="minimum jumps" />
-    <option name="LAST_COMMIT_MESSAGE" value="minimum jumps" />
+    <MESSAGE value="subset sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="subset sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -341,9 +321,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -351,7 +337,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -445,18 +430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arithmeticparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py">
+    <entry file="file://$PROJECT_DIR$/dynamicprogramming/minimumJumps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -464,14 +441,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dynamicprogramming/minimumJumps.py">
+    <entry file="file://$PROJECT_DIR$/dynamicprogramming/subsetsum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicprogramming/longestCommonSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dynamicprogramming/rodcutting.py" />
+    <entry file="file://$PROJECT_DIR$/recursion.py" />
+    <entry file="file://$PROJECT_DIR$/arithmeticparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1223">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,11 @@ def longest_subsequence(str1, str2):
     return matrix[n - 1][m - 1]
 
 
-if __name__ == '__main__':
+def main():
     str1 = input()
     str2 = input()
     print(longest_subsequence(str1, str2))
+
+
+if __name__ == '__main__':
+    main()

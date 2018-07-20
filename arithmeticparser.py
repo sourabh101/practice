@@ -90,8 +90,8 @@ def to_postfix(string):
 
 
 def get_val(symbol, param1, param2):
-    param1 = int(param1)
-    param2 = int(param2)
+    param1 = float(param1)
+    param2 = float(param2)
 
     if symbol == '+':
         return param2 + param1
@@ -100,7 +100,7 @@ def get_val(symbol, param1, param2):
     elif symbol == '*':
         return param2 * param1
     elif symbol == '/':
-        return param2 // param1
+        return param2 / param1
     elif symbol == '^':
         return param2**param1
 
