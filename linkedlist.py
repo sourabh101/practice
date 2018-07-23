@@ -90,7 +90,69 @@ class LinkedList:
         return head
 
     def rotate(self, num):
-        pass
+        length = self.length()
+        if length < 2:
+            return
+        if num > length:
+            num = num % length
+        head = self.head
+        cur_node = head.next
+        count = 0
+        while cur_node is not None:
+            count += 1
+            if count == num:
+                temp_node = head.next
+                head.next = cur_node.next
+                cur_node.next = None
+                node = head.next
+                while node.next is not None:
+                    node = node.next
+                node.next = temp_node
+            else:
+                cur_node = cur_node.next
+
+        return head
+
+    def contains_loop(self):
+        fast = self.head
+        slow = self.head
+
+        while fast is not None:
+            fast = fast.next
+            if fast is not None:
+                fast = fast.next
+            slow = slow.next
+            if fast == slow:
+                return True
+        return False
+
+    def remove_loop(self):
+        head = self.head
+        fast = head
+        slow = head
+        match_node = head
+        while fast is not None:
+            fast = fast.next
+            if fast is not None:
+                fast = fast.next
+            slow = slow.next
+            if fast == slow:
+                match_node = fast
+                break
+
+        if match_node != head:
+            new_node = head
+            temp_node = match_node
+
+            while new_node is not None:
+                new_node = new_node.next
+                while temp_node.next != match_node:
+                    if temp_node.next == new_node:
+                        temp_node.next = None
+                        return head
+                    temp_node = temp_node.next
+
+                temp_node = match_node
 
 
 array = [i for i in range(1, 11)]
@@ -101,6 +163,15 @@ my_list = LinkedList()
 for i in array:
     my_list.append(i)
 
-my_list.display()
-my_list.reverse()
-my_list.display()
+node = my_list.head.next.next
+temp_node = my_list.head.next
+
+while temp_node.next is not None:
+    temp_node = temp_node.next
+
+temp_node.next = node
+
+print(my_list.contains_loop())
+my_list.remove_loop()
+print(my_list.contains_loop())
+
