@@ -18,6 +18,8 @@ def main():
     # end time should be sorted
     list_end = [int(i) for i in input().split()]
     print(get_max_activities(list_start, list_end))
+
+
 if __name__ == '__main__':
     main()
 
