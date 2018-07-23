@@ -155,23 +155,15 @@ class LinkedList:
                 temp_node = match_node
 
 
-array = [i for i in range(1, 11)]
-random.shuffle(array)
+def main():
+    array = [i for i in range(1, 11)]
+    random.shuffle(array)
+    my_list = LinkedList()
 
-my_list = LinkedList()
+    for i in array:
+        my_list.append(i)
+    my_list.display()
 
-for i in array:
-    my_list.append(i)
 
-node = my_list.head.next.next
-temp_node = my_list.head.next
-
-while temp_node.next is not None:
-    temp_node = temp_node.next
-
-temp_node.next = node
-
-print(my_list.contains_loop())
-my_list.remove_loop()
-print(my_list.contains_loop())
-
+if __name__ == '__main__':
+    main()
