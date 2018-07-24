@@ -94,17 +94,17 @@ class BST:
         node_queue = []
         root = self.root
         if root is not None:
-            node_queue.insert(1, root)
+            node_queue.insert(0, root)
             print(root.value)
             while len(node_queue) != 0:
                 node = node_queue.pop()
                 left_node = node.left_child
                 right_node = node.right_child
                 if left_node is not None:
-                    node_queue.insert(1, left_node)
+                    node_queue.insert(0, left_node)
                     print(left_node.value)
                 if right_node is not None:
-                    node_queue.insert(1, right_node)
+                    node_queue.insert(0, right_node)
                     print(right_node.value)
 
 
@@ -116,4 +116,4 @@ bst = BST()
 for i in array:
     bst.insert(i)
 
-print(bst.bfs())
+bst.bfs()
