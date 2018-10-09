@@ -12,9 +12,11 @@ uClient.close()
 page_soup = soup(page_html, 'html.parser')
 
 table = page_soup.find("table")
-headers = [th.text.encode("utf-8") for th in table.select("tr th")]
+headers = [th.text for th in table.select("tr th")]
 
 with open("/Users/sourabh/Documents/out.csv", "w") as f:
     wr = csv.writer(f)
-    wr.writerow(headers)
-    wr.writerows([[td.text.encode("utf-8") for td in row.find_all("td")] for row in table.select("tr + tr")])
+    wr.writerow([headers[i] for i in range(1, 6)])
+    for row in table.select("tr + tr"):
+        print(len(row.find_all("td")))
+        wr.writerows([[row.find_all("td")[i].text for i in range(1, 6)]])
