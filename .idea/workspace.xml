@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10a3f4d0-c9a3-48c6-8369-6e312a33fb43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cardgame.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stocks/scrapper.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +13,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BinarySearchTree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+            <state relative-caret-position="1290">
+              <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrapper.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stocks/scrapper.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,6 +44,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>infosys</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,10 +81,11 @@
         <option value="$PROJECT_DIR$/cardgame.py" />
         <option value="$PROJECT_DIR$/regexpractice.py" />
         <option value="$PROJECT_DIR$/solution.py" />
+        <option value="$PROJECT_DIR$/stocks/scrapper.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
@@ -87,8 +105,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solution">
+  <component name="RunManager" selected="Python.scrapper">
     <configuration name="BinarySearchTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,23 +150,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedlist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="regexpractice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,6 +163,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regexpractice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="scrapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stocks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stocks/scrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,19 +219,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.linkedlist" />
-      <item index="1" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
-      <item index="2" class="java.lang.String" itemvalue="Python.simplegame" />
-      <item index="3" class="java.lang.String" itemvalue="Python.regexpractice" />
-      <item index="4" class="java.lang.String" itemvalue="Python.solution" />
+      <item index="0" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
+      <item index="1" class="java.lang.String" itemvalue="Python.simplegame" />
+      <item index="2" class="java.lang.String" itemvalue="Python.regexpractice" />
+      <item index="3" class="java.lang.String" itemvalue="Python.solution" />
+      <item index="4" class="java.lang.String" itemvalue="Python.scrapper" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python.regexpractice" />
-        <item index="2" class="java.lang.String" itemvalue="Python.simplegame" />
-        <item index="3" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
-        <item index="4" class="java.lang.String" itemvalue="Python.linkedlist" />
+        <item index="0" class="java.lang.String" itemvalue="Python.scrapper" />
+        <item index="1" class="java.lang.String" itemvalue="Python.solution" />
+        <item index="2" class="java.lang.String" itemvalue="Python.regexpractice" />
+        <item index="3" class="java.lang.String" itemvalue="Python.simplegame" />
+        <item index="4" class="java.lang.String" itemvalue="Python.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -298,13 +316,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532426578859</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="card game">
+      <created>1532778528845</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1532778528845</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35702747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3796446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32750398" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
@@ -343,7 +369,8 @@
     <MESSAGE value="linked_list" />
     <MESSAGE value="activity selection" />
     <MESSAGE value="linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked list" />
+    <MESSAGE value="card game" />
+    <option name="LAST_COMMIT_MESSAGE" value="card game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -352,13 +379,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/simpleserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arithmeticparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
@@ -599,13 +619,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/greedy.py" />
-    <entry file="file://$PROJECT_DIR$/greedy/activityselection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arithmeticparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1965">
@@ -621,35 +634,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regexpractice.py" />
-    <entry file="file://$PROJECT_DIR$/cardgame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="167" column="23" lean-forward="false" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.py" />
     <entry file="file://$PROJECT_DIR$/BinarySearchTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        <state relative-caret-position="1290">
+          <caret line="87" column="23" lean-forward="false" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardgame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greedy/activityselection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/scrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
