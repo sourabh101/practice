@@ -3,6 +3,7 @@ from urllib.request import urlopen as uReq
 from urllib.request import Request as req
 import csv
 from time import sleep
+import pandas as pd
 
 
 def download_data():
@@ -23,8 +24,15 @@ def download_data():
         for row in table.select("tr + tr"):
             wr.writerows([[row.find_all("td")[i].text for i in range(1, 6)]])
 
+def update_csv_files():
+    df = pd.read_csv("/Users/sourabh/Documents/out1.csv")
+    df.to_csv("/Users/sourabh/Documents/out2.csv")
+
+    df = pd.read_csv("/Users/sourabh/Documents/out.csv")
+    df.to_csv("/Users/sourabh/Documents/out1.csv")
 
 while True:
     sleep(60)
-    download_data();
+    update_csv_files()
+    download_data()
     print("done")
